@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#d98a9c" />
+      <meta
+        name="description"
+        content="Invitación digital a los XV años de Frida Paulina Perez Hernandez — 10 de octubre de 2026."
+      />
+
+          <!-- Meta tags para redes sociales (Open Graph) -->
+    <meta property="og:title" content="¡Te Invito a mis XV años!">
+    <meta property="og:description" content="Tenemos el honor de invitarte a celebrar mis XV años el 10 de octubre de 2026">
+    <meta property="og:image" content="./assets/images/og-xv-frida.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:url" content="./index.html">
+    <meta property="og:type" content="website">
+    
+
+      <title>Mis XV años — Frida Paulina Perez Hernandez</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Parisienne&family=Playfair+Display:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#invitacion">Ir a la invitación</a>
+
+    <main class="story" id="invitacion">
+      <section class="hero" aria-labelledby="hero-title">
+        <img
+          class="hero__image"
+          src="assets/imgs/home.jpeg"
+          alt="Frida sosteniendo flores lilas con tiara y guantes blancos"
+          fetchpriority="high"
+        />
+        <div class="hero__veil" aria-hidden="true"></div>
+        <div class="hero__content">
+          <p class="hero__prelude">Una noche para recordar</p>
+          <h1 id="hero-title">Frida</h1>
+          <div class="hero__occasion">
+            <span aria-hidden="true"></span>
+            <p>Mis XV años</p>
+            <span aria-hidden="true"></span>
+          </div>
+          <time datetime="2026-10-10">10 de octubre de 2026</time>
+        </div>
+        <a class="scroll-cue" href="#familia" aria-label="Descubrir la invitación">
+          <span>Desliza</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="m6 9 6 6 6-6" />
+          </svg>
+        </a>
+      </section>
+
+      <section class="section family paper" id="familia" aria-labelledby="family-title">
+        <div class="reveal">
+          <div class="flourish" aria-hidden="true"><span></span><i>✦</i><span></span></div>
+          <p class="eyebrow" id="family-title">En compañía de mis padres</p>
+          <p class="script-name">Juan Pablo Perez Ricardez</p>
+          <span class="ampersand">y</span>
+          <p class="script-name">Cristel Hernandez Bautista</p>
+        </div>
+
+        <div class="family__divider reveal" aria-hidden="true">❦</div>
+
+        <div class="reveal">
+          <p class="eyebrow">Quinceañera</p>
+          <p class="family__full-name">Frida Paulina Perez Hernandez</p>
+          <div class="flourish flourish--bottom" aria-hidden="true"><span></span><i>✦</i><span></span></div>
+        </div>
+      </section>
+
+      <section class="section music-calendar paper" aria-labelledby="music-title">
+        <div class="music reveal">
+          <p class="script-kicker">Dale play a mi canción favorita</p>
+          <h2 id="music-title">Photograph — Ed Sheeran</h2>
+          <audio id="event-audio" preload="metadata"></audio>
+          <div class="player" id="audio-player" aria-label="Reproductor de audio">
+            <button class="icon-button player__play" id="audio-toggle" type="button" aria-label="Reproducir canción">
+              <svg class="icon-play" viewBox="0 0 24 24" aria-hidden="true"><path d="m8 5 11 7-11 7V5Z" /></svg>
+              <svg class="icon-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h4v14H7zM13 5h4v14h-4z" /></svg>
+            </button>
+            <div class="player__track">
+              <input id="audio-progress" type="range" min="0" max="100" value="0" aria-label="Progreso de la canción" />
+              <div class="player__meta">
+                <span id="audio-status">Audio no disponible</span>
+                <span id="audio-time">0:00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="calendar reveal" aria-labelledby="calendar-title">
+          <p class="eyebrow">Reserva la fecha</p>
+          <h2 id="calendar-title">Octubre</h2>
+          <div class="calendar__week" aria-hidden="true">
+            <span>D</span><span>L</span><span>M</span><span>M</span><span>J</span><span>V</span><span>S</span>
+          </div>
+          <div class="calendar__days" aria-label="Calendario de octubre de 2026">
+            <span></span><span></span><span></span><span></span><span>1</span><span>2</span><span>3</span>
+            <span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><strong aria-label="10 de octubre de 2026, fecha del evento"><i aria-hidden="true">♥</i><b>10</b></strong>
+            <span>11</span><span>12</span><span>13</span><span>14</span><span>15</span><span>16</span><span>17</span>
+            <span>18</span><span>19</span><span>20</span><span>21</span><span>22</span><span>23</span><span>24</span>
+            <span>25</span><span>26</span><span>27</span><span>28</span><span>29</span><span>30</span><span>31</span>
+          </div>
+        </div>
+
+        <div class="envelope-scene reveal" aria-hidden="true">
+          <div class="envelope-envelope">
+            <div class="envelope-lining"></div>
+            <div class="envelope-letter"><span>Con cariño, Frida</span></div>
+            <div class="envelope-pocket"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section letter-section paper" aria-labelledby="letter-title">
+        <article class="letter reveal">
+          <p id="letter-title">
+            Hoy estoy radiante de emoción y de alegría, hoy es el día soñado y esperado, y quiero
+            compartir con cada uno de ustedes esta noche que será inolvidable.
+          </p>
+          <p>Tu presencia hará aún más especial esta celebración.</p>
+          <div class="wax-seal" aria-hidden="true"><span>F</span></div>
+        </article>
+
+        <div class="countdown reveal" aria-live="polite">
+          <p class="script-kicker">Tan solo faltan</p>
+          <div class="countdown__grid" id="countdown">
+            <div><strong data-unit="days">00</strong><span>Días</span></div>
+            <div><strong data-unit="hours">00</strong><span>Horas</span></div>
+            <div><strong data-unit="minutes">00</strong><span>Minutos</span></div>
+            <div><strong data-unit="seconds">00</strong><span>Segundos</span></div>
+          </div>
+          <p class="countdown__message" id="countdown-message">para este día tan especial</p>
+        </div>
+      </section>
+
+      <section class="section ceremony paper" aria-labelledby="ceremony-title">
+        <div class="polaroids reveal" aria-label="Recuerdos fotográficos de Frida">
+          <figure class="polaroid polaroid--left">
+            <div class="polaroid__crop polaroid__crop--left" role="img" aria-label="Frida sentada junto a un pozo con lentes oscuros durante su sesión de quince años"></div>
+            <figcaption>Un sueño que florece</figcaption>
+          </figure>
+          <figure class="polaroid polaroid--right">
+            <div class="polaroid__crop polaroid__crop--right" role="img" aria-label="Frida posando con globos plateados del número quince"></div>
+            <figcaption>Mis XV años</figcaption>
+          </figure>
+        </div>
+
+        <header class="section-heading reveal">
+          <p class="script-kicker">¿Cuándo y dónde?</p>
+          <h2 id="ceremony-title">Ceremonia</h2>
+          <p>Acompáñame a dar gracias por este nuevo capítulo.</p>
+        </header>
+
+        <div class="event-detail reveal">
+          <svg class="line-icon" viewBox="0 0 64 64" aria-hidden="true">
+            <path d="M13 57V29l19-14 19 14v28M32 15V5m-6 5h12M21 57V36h8v21m6 0V36h8v21M13 57h38" />
+            <path d="M32 25c-3 4-5 6-5 9a5 5 0 0 0 10 0c0-3-2-5-5-9Z" />
+          </svg>
+          <h3>Nuestra Señora de Guadalupe y Juan Diego</h3>
+          <p>Bosque de Saloya · <span class="editable">Horario por confirmar</span></p>
+          <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Nuestra%20Se%C3%B1ora%20de%20Guadalupe%20y%20Juan%20Diego%2C%20Bosque%20de%20Saloya" target="_blank" rel="noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.1 7-12A7 7 0 1 0 5 9c0 5.9 7 12 7 12Z" /><circle cx="12" cy="9" r="2.5" /></svg>
+            Ver ubicación
+          </a>
+        </div>
+      </section>
+
+      <section class="section reception paper" aria-labelledby="reception-title">
+        <header class="section-heading reveal">
+          <p class="script-kicker">Después de la ceremonia</p>
+          <h2 id="reception-title">La fiesta</h2>
+        </header>
+
+        <div class="event-detail reveal">
+          <svg class="line-icon" viewBox="0 0 64 64" aria-hidden="true">
+            <path d="M9 57h46V27H9v30Zm5-38h36l5 8H9l5-8Zm4 15h8v9h-8v-9Zm20 0h8v9h-8v-9ZM29 35h6v22h-6V35Z" />
+            <path d="M17 19c2-8 8-12 15-12s13 4 15 12" />
+          </svg>
+          <h3>Entrada El Camarón, El Cedro salón "Punta Carena"</h3>
+          <p><span class="editable">Horario por confirmar</span></p>
+          <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Entrada%20El%20Camar%C3%B3n%2C%20El%20Cedro%20sal%C3%B3n%20Punta%20Carena" target="_blank" rel="noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.1 7-12A7 7 0 1 0 5 9c0 5.9 7 12 7 12Z" /><circle cx="12" cy="9" r="2.5" /></svg>
+            Ver ubicación
+          </a>
+        </div>
+
+        <div class="detail-pair">
+          <article class="mini-detail reveal">
+            <svg class="line-icon" viewBox="0 0 64 64" aria-hidden="true">
+              <path d="M24 10c0 9-7 12-11 16l8 9-5 22h32l-5-22 8-9c-4-4-11-7-11-16-5 4-11 4-16 0Z" />
+              <path d="M24 10c2 9 14 9 16 0M21 35h22" />
+            </svg>
+            <h3>Código de vestimenta</h3>
+            <p>Formal</p>
+            <small>Excepto en color dorado y durazno.</small>
+          </article>
+
+          <article class="mini-detail reveal">
+            <svg class="line-icon" viewBox="0 0 64 64" aria-hidden="true">
+              <path d="M9 26h46v31H9V26Zm23 0v31M7 17h50v9H7v-9Z" />
+              <path d="M32 17c-7 0-15-3-15-9 0-4 4-5 7-3 5 3 8 12 8 12Zm0 0c7 0 15-3 15-9 0-4-4-5-7-3-5 3-8 12-8 12Z" />
+            </svg>
+            <h3>Regalos</h3>
+            <p>Tu presencia es mi mejor regalo.</p>
+            <small>Si deseas tener un detalle, una lluvia de sobres será recibida con cariño.</small>
+          </article>
+        </div>
+      </section>
+
+      <section class="rsvp" aria-labelledby="rsvp-title">
+        <img
+          src="assets/imgs/footer.jpeg"
+          alt="Frida recargada en un puente durante su sesión de quince años"
+          loading="lazy"
+        />
+        <div class="rsvp__veil" aria-hidden="true"></div>
+        <div class="rsvp__content reveal">
+          <p class="eyebrow">Nos encantará verte</p>
+          <h2 id="rsvp-title">Confirma tu asistencia</h2>
+          <p>Quiero compartir este momento tan esperado contigo.</p>
+          <a class="button button--light" id="rsvp-link" aria-label="Confirmar asistencia por WhatsApp">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M20 11.6a8 8 0 0 1-11.8 7L4 20l1.4-4.1A8 8 0 1 1 20 11.6Z" />
+              <path d="M9 8c.3 3.1 2 4.8 5.1 5.8" />
+            </svg>
+            Confirmar por WhatsApp
+          </a>
+          <small id="rsvp-note">También puedes confirmar al +52 1 993 153 6580.</small>
+        </div>
+        <p class="rsvp__footer">Con cariño, Frida</p>
+      </section>
+    </main>
+  </body>
+</html>
